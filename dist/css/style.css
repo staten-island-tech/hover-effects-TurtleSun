@@ -34,7 +34,7 @@
 }
 
 .flip-front {
-  background-color: #bbb;
+  background-color: palevioletred;
   color: black;
 }
 
@@ -43,6 +43,11 @@
   color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+
+.rabbit {
+  height: 15rem;
+  width: 15rem;
 }
 
 .btn {
