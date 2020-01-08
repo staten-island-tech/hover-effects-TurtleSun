@@ -1,7 +1,7 @@
 .flip {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 400px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
   }
@@ -27,12 +27,12 @@
   }
   
 .flip-front {
-    background-color: palevioletred;
+    background-color: dodgerblue;
     color: black;
   }
   
 .flip-back {
-    background-color: dodgerblue;
+    background-color: palevioletred;
     color: white;
     transform: rotateY(180deg);
   }
