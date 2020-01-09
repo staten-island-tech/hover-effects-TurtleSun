@@ -1,17 +1,17 @@
-.Fade figure img {
+.Fade img {
 	-webkit-filter: blur(3px);
 	filter: blur(3px);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
-.Fade figure:hover img {
+.Fade:hover img {
 	-webkit-filter: blur(0);
 	filter: blur(0);
 }
 
 .snow{
-  height: 50rem;
+  height: 20rem;
   width: auto;
 }
 

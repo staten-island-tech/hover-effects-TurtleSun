@@ -1,0 +1,17 @@
+.Zoom img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.Zoom:hover img {
+	-webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.sunset{
+    height: 15rem;
+    width: auto;
+    padding: 10rem;
+    outline: 5rem solid papayawhip;
+}
