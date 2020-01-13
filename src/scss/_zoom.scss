@@ -1,17 +1,20 @@
-.Zoom img {
-	-webkit-transform: scale(1.5);
-	transform: scale(1.5);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+.Zoom{
+    width: 300px;
 }
-.Zoom:hover img {
-	-webkit-transform: scale(1);
-    transform: scale(1);
+
+.Zoom figure img {
+	width: 300px;
+	height: auto;
+	transition: .3s ease-in-out;
+}
+.Zoom figure:hover img {
+	width: 350px;
+}
+
+.figure{
+    width: 300px;
 }
 
 .sunset{
-    height: 15rem;
-    width: auto;
-    padding: 10rem;
-    outline: 5rem solid papayawhip;
+    outline: 1rem solid papayawhip;
 }

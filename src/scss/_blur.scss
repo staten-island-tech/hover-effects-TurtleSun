@@ -1,18 +1,18 @@
-.Fade img {
-	-webkit-filter: blur(3px);
+.Blur{
+  width: 600px;
+}
+
+.Blur img {
 	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
-.Fade:hover img {
-	-webkit-filter: blur(0);
+.Blur:hover img {
 	filter: blur(0);
 }
 
 .snow{
   height: 20rem;
-  width: auto;
 }
 
 /* .btn {

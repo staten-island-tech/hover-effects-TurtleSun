@@ -1,6 +1,8 @@
 @import "./_flip.scss";
 @import "./_blur.scss";
 @import "./_zoom.scss";
+@import "./_shine.scss";
+@import "./_dropout.scss";
 
 html{
     padding: 0;
@@ -8,7 +10,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    height: 100%;
+    height: 120rem;
     width: auto;
 }
 .titles{
